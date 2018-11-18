@@ -1,0 +1,76 @@
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Ejemplo Imágenes</title>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/3.1.3/css/jasny-bootstrap.min.css"
+	</head>
+
+	<body>
+
+		<div class="container">
+			<div class="panel panel-primary">
+				<div class="panel-body">
+
+					<form name="form1" id="form1" method="post" action="" enctype="multipart/form-data">
+
+						<h4 class="text-center">Cargar Multiple Archivos</h4>
+
+						<div class="form-group col-lg-12">
+							<label class="col-sm-2 control-label">Lunes</label>
+							<div class="col-sm-8">
+								<div class="fileinput fileinput-new" data-provides="fileinput">
+								  <div class="fileinput-preview thumbnail" data-trigger="fileinput" style="width: 200px; height: 150px;"></div>
+								  <div>
+								    <span class="btn btn-default btn-file"><span class="fileinput-new">Select image</span><span class="fileinput-exists">Change</span><input type="file" name="lunesfile" id="js_fstimage"></span>
+								    <a href="#" class="btn btn-default fileinput-exists" data-dismiss="fileinput">Remove</a>
+								  </div>
+								</div>
+							</div>
+
+						</div>
+
+            <div class="form-group col-lg-12">
+							<label class="col-sm-2 control-label">Martes</label>
+							<div class="col-sm-8">
+								<div class="col-sm-8">
+									<div class="fileinput fileinput-new" data-provides="fileinput">
+									  <div class="fileinput-preview thumbnail" data-trigger="fileinput" style="width: 200px; height: 150px;"></div>
+									  <div>
+									    <span class="btn btn-default btn-file"><span class="fileinput-new">Select image</span><span class="fileinput-exists">Change</span><input type="file" name="martesfile" id="js_scnimage"></span>
+									    <a href="#" class="btn btn-default fileinput-exists" data-dismiss="fileinput">Remove</a>
+									  </div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+            <div class="form-group col-lg-12">
+							<label class="col-sm-2 control-label">Miercoles</label>
+							<div class="col-sm-8">
+								<div class="col-sm-8">
+									<div class="fileinput fileinput-new" data-provides="fileinput">
+									  <div class="fileinput-preview thumbnail" data-trigger="fileinput" style="width: 200px; height: 150px;"></div>
+									  <div>
+									    <span class="btn btn-default btn-file"><span class="fileinput-new">Select image</span><span class="fileinput-exists">Change</span><input type="file" name="miercolesfile" id="js_trdimage"></span>
+									    <a href="#" class="btn btn-default fileinput-exists" data-dismiss="fileinput">Remove</a>
+									  </div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<button type="button" class="btn-primary btn-sm" name="button" id="btnAdd">Terminar</button>
+
+					</form>
+
+				</div>
+			</div>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" ></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/3.1.3/js/jasny-bootstrap.min.js"></script>
+		<script src="js/custom.js" ></script>
+	</body>
+</html>
